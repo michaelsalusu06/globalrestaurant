@@ -12,14 +12,14 @@ A clean, responsive, single-page web application for a global fusion restaurant.
 - **Hero & Landing Section**: Full-viewport header featuring branding, tagline, and navigation links (`Home`, `Menu`, `Order`).
 - **Global Fusion Menu**: Displays dishes across international cuisines, including starters, signature mains, and health-conscious options.
 - **Real-Time Price Calculator**: Dynamic JavaScript calculation that updates the order total instantly on form submission.
-- **Responsive & Clean UI**: Built with CSS resets (`* { margin: 0; padding: 0; box-sizing: border-box; }`), warm color palette, and web-safe typography (`Georgia` & `Arial`).
+- **Responsive & Clean UI**: Built with CSS resets (`* { margin: 0; padding: 0; box-sizing: border-box; }`) and warm color palette.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5**: Semantic tags (`<header>`, `<main>`, `<form>`, `<section>`)
-- **CSS3**: Layout design, CSS resets, flex containers, button states (`:hover`, `:active`)
+- **HTML5**: Semantic tags
+- **CSS3**: Layout design, flex containers, button states 
 - **JavaScript (ES6)**: DOM manipulation (`document.getElementById()`), dynamic event handling (`onclick`), and mathematical logic.
 
 ---
