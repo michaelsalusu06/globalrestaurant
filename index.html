@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Restaurant</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="all">
+         <div id="home" style="text-align: center;">
+            <br>
+            <nav>
+                <a href="#home" style="margin-right: 3%;">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#order" style="margin-left: 3%;">Order</a>
+            </nav><br><br><br><br><br><br><br><br><br><br>
+            <h1>Global Restaurant</h1><br><br>
+            <p>An iconic global bistro for the whole family, blending timeless international flavors with a fresh, modern twist.</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+         </div>
+         <div id="menu">
+             <br><br><br><br><br><h1>Menu</h1><br><br><br>
+             <h1>Global Signature Mains</h1><br><br><br><br><br>
+             <div id="menu1">
+                 <div class="MENU">
+                     <img src="sushi.jpg" alt="sushi" style="margin-left: 50%;">
+                     <h2 style="margin-left: 85%;">Sushi</h2>
+                     <p  style="margin-left: 87%;">$10.00</p>
+                     <p  style="margin-left: 89%;">sushi</p>
+                 </div>
+                 <div class="MENU">
+                     <img src="lasagna.jpg" alt="lasagna" style="margin-left: 105%;">
+                     <h2 style="margin-left: 139%;">Lasagna</h2>
+                     <p  style="margin-left: 147%;">$20.00</p>
+                     <p  style="margin-left: 147%;">lasagna</p>
+                 </div>
+                 <div class="MENU">
+                     <img src="paella.jpg" alt="spanish paella" style="margin-left: 160%;">
+                     <h2 style="margin-left: 200%;">Paella</h2>
+                     <p  style="margin-left: 203%;">$25.00</p>
+                     <p  style="margin-left: 204%;">Paella</p>
+                 </div>
+             </div>
+             <br><br><br><br><br><br><br><br><br>
+             <h1>Appetizer</h1><br><br><br><br><br>
+             <div id="menu1">
+                  <div class="MENU">
+                    <img src="appetizer.jpg" alt="appetizers" style="margin-left: 203%">
+                    <h2 style="margin-left: 240%;">Small Bites</h2>
+                    <p  style="margin-left: 243%;">$3.00</p>
+                    <p  style="margin-left: 237%;">Appetizers</p>
+                  </div>
+             </div>
+             <br><br><br><br><br><br><br><br><br>
+             <h1>Health & Comfort Options</h1><br><br><br><br><br>
+              <div id="menu1">
+                 <div class="MENU">
+                     <img src="bellpepper.jpg" alt="vegan bell pepper" style="margin-left: 20%;">
+                     <h2 style="margin-left: 43%;">Bell Pepper</h2>
+                     <p  style="margin-left: 55%;">$10.00</p>
+                     <p  style="margin-left: 43%;">Vegan Bell Pepper</p>
+                 </div>
+                <div class="MENU">
+                     <img src="lentil.jpg" alt="vegan lentil soup" style="margin-left: 50%;">
+                     <h2 style="margin-left: 90%;">Lentil Soup</h2>
+                     <p  style="margin-left: 91%;">$15.00</p>
+                     <p  style="margin-left: 93%;">Soup</p>
+                 </div>
+                <div class="MENU">
+                     <img src="friedrice.jpg" alt="fried rice" style="margin-left: 80%;">
+                     <h2 style="margin-left: 120%;">Fried Rice</h2>
+                     <p  style="margin-left: 121%;">$20.00</p>
+                     <p  style="margin-left: 122%;">Fried Rice</p>
+                 </div>
+                 <div class="MENU">
+                     <img src="chickenrings.jpg" alt="chickenrings" style="margin-left: 100%;">
+                     <h2 style="margin-left: 135%;">Chicken Rings</h2>
+                     <p  style="margin-left: 137%;">$10.00</p>
+                     <p  style="margin-left: 135%;">Chicken Rings</p>
+                 </div>
+             </div>
+             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+         </div>
+         <div id="order">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <h1>Order Here</h1><br><br><br><br><br>
+             <form>
+                <label for="sushi">Sushi: </label>
+                <input type="text" id="sushi" value=""><br><br>
+                <label for="lasagna">Lasagna: </label>
+                <input type="text" id="lasagna" value=""><br><br>
+                <label for="paella">Paella: </label>
+                <input type="text" id="paella" value=""><br><br>
+                <label for="bites">Small Bites: </label>
+                <input type="text" id="bites" value=""><br><br>
+                <label for="bell">Bell Pepper: </label>
+                <input type="text" id="bell" value=""><br><br>
+                <label for="lentil">Lentil Soup: </label>
+                <input type="text" id="lentil" value=""><br><br>
+                <label for="rice">Fried Rice: </label>
+                <input type="text" id="rice" value=""><br><br>
+                <label for="rings">Chicken Rings: </label>
+                <input type="text" id="rings" value=""><br><br>
+                <button type="button" onclick="showTotal()">Submit</button><br><br>
+                <p id="res"></p><br><br><br><br><br>
+             </form>
+             <form>
+                <label for="pay">Pay here: </label>
+                <input type="text" id="pay" value=""><br><br>
+                <button type="button" onclick="payment()">Pay</button><br><br>
+             </form>
+         </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: "Quattrocento";
+}
+
+h1
+{
+    font-family: "Quattrocento";
+    text-align: center;
+}
+
+#home
+{
+    background-color: #D96B43;
+    color: white;
+}
+
+#menu1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+img
+{
+    height: 250px;
+    width: 250px;
+}
+
+#menu
+{
+    background-color: #F5EBE0;
+}
+
+.MENU
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#order form
+{
+    margin-left: 10%;
+}
+
+#order
+{
+    background-color: #D96B43;
+}
